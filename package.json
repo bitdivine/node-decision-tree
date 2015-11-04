@@ -1,0 +1,19 @@
+{
+  "name": "decision-tree",
+  "version": "0.0.0",
+  "description": "Minimise entropy",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && echo OK",
+    "lint": "find lib test | grep -E '.js$' | xargs jshint",
+    "start": "node lib/decision-tree.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitdivine/node-decision-tree.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+  }
+}
