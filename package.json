@@ -1,10 +1,10 @@
 {
-  "name": "decision-tree",
+  "name": "fast-decision-tree",
   "version": "0.0.0",
   "description": "Minimise entropy",
-  "main": "lib/index.js",
+  "main": "lib/decision-tree.js",
   "scripts": {
-    "test": "npm run lint && echo OK",
+    "test": "npm run lint && node test/unweighted.js && node test/weighted.js && echo OK",
     "lint": "find lib test | grep -E '.js$' | xargs jshint",
     "start": "node lib/decision-tree.js"
   },
